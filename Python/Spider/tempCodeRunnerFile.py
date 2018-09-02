@@ -1,0 +1,12 @@
+            'i': 'Bob',
+            'from': 'AUTO',
+            'to': 'AUTO',
+            'smartresult': 'dict',
+            'client': 'fanyideskweb',
+            'salt': '1534219535558',
+            'sign': '9 bff0552c1a3f299636b11cf47f47b6b',
+            'doctype': 'json',
+            'version': '2.1',
+            'keyfrom': 'fanyi.web',
+            'action': 'FY_BY_CLICKBUTTION',
+            'typoResult': 'false'

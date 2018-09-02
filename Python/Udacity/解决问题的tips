@@ -1,0 +1,12 @@
+建议：
+
+不要尝试一次性完全全部内容。想想你迄今为止学到的可以帮助你解决问题的方法，想想如何组合这些知识点。在编写代码之前，你可以思考一下怎样一步一步解决它。
+
+在解决问题时，可以使用变量来存储每个步骤的中间结果。然后，你可以打印这些变量（并单击测试答案以显示结果），以确保变量的值跟你期望值一致。
+
+0.Don't panic
+1.What's are the inputs?
+2.What's are the outputs?
+3.Solve the problem
+4.simple mechaninal solution
+5.Develop incrementally and test as we go
