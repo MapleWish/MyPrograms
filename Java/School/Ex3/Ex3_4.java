@@ -6,9 +6,9 @@ public class Ex3_4 {
 
     public static void main(String[] args) {
         /**
-         * 产生1-12的随机数
-         * (int) (Math.random() * 12 + 1)
-         * (int)为类型转化，优先级最高，所以需要括号让后面的式子先进行计算
+         * 
+         * 
+         * 
          */
         int month = (int) (Math.random() * 12 + 1);
         switch (month) {

@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Ex_16
  */
-public class Ex_16 {
+public class Ex2_16 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

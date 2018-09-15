@@ -3,7 +3,7 @@
  */
 import java.util.Scanner;
 
-public class Ex_15 {
+public class Ex2_15 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -10,7 +10,7 @@ public class Ex2_1 {
         System.out.print("Enter a degree in Celsius:");
         int Celsiu = input.nextInt();
         double Fahrenheit = Celsiu * (9.0 / 5) + 32;
-        System.out.println(Celsiu + " Celsius is " + Fahrenheit + " Fahrenheit");
+        System.out.printf(Celsiu + " Celsius is " + " Fahrenheit %.1f",Fahrenheit);
         
     }
 }

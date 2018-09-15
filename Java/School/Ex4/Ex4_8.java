@@ -1,5 +1,7 @@
+
 /**
  * Ex4_8
+ * 使用(type) x ;进行强制类型转换
  */
 import java.util.*;
 

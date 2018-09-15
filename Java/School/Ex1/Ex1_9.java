@@ -1,4 +1,4 @@
-public class text9{
+public class Ex1_9{
     public static void main(String[] args) {
         double hig = 7.9;
         double weigh = 4.5;

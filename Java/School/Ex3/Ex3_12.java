@@ -15,6 +15,6 @@ public class Ex3_12 {
         if (x / 100 == x % 10) {
             System.out.printf("%d is a palindrome", x);
         }
-        System.out.printf("%d is not a palindrome", x);
+        else System.out.printf("%d is not a palindrome", x);
     }
 }

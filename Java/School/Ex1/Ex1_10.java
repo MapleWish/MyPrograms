@@ -1,4 +1,4 @@
-public class text10{
+public class Ex1_10{
     public static void main(String[] args) {
         double Km = 14;
         double Em = Km/1.6;

@@ -1,4 +1,4 @@
-public class text7 {
+public class Ex1_7 {
     public static void main(String[] args) {
         double result1=0,result2=0 ;
         int t=1;

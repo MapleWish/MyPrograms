@@ -14,7 +14,7 @@ public class Ex2_2 {
         double area = radius * radius * P;
         double volume = area * length;
         /**
-         * 只有printf才能格式化输出
+         * 
          */
         System.out.printf("The area is %.4f",area);
         System.out.printf("\nThe volume is %.1f",volume);

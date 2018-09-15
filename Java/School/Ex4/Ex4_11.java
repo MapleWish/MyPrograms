@@ -21,6 +21,6 @@ public class Ex4_11 {
                 System.out.printf("The binary value is %c", x[a - 10]);
             }
         }
-        System.out.printf("%d is an invalid input", a);
+        else System.out.printf("%d is an invalid input", a);
     }
 }
