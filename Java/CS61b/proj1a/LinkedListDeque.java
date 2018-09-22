@@ -1,12 +1,11 @@
 /**
- * LinkedListDeque
+ * The generic placeholder must be the top of the class after the class name
+ * And the generic placeholder can use the null to assign
  */
-public class LinkedListDeque {
+public class LinkedListDeque<T> {
 
-    /**
-     * Node
-     */
-    public class Node<T> {
+
+    public class Node {
         public Node pre;
         public Node next;
         public T item;
@@ -16,14 +15,19 @@ public class LinkedListDeque {
             next = n;
             item = i;
         }
+        public Node() {
+            pre = null;
+            next = null;
+            item = null;
+        }
     }
     
-    public Node<T> sentinel_pre;
-    public Node<T> sentinel_next;
+    public Node sentinel_pre;
+    public Node sentinel_next;
 
     public LinkedListDeque() {
-        sentinel_pre = new Node<T>(null, null, 63);
-        sentinel_next = new Node<T>(null, null, 63);
+        sentinel_pre = new Node();
+        sentinel_next = new Node();
         sentinel_pre.next = sentinel_next;
         sentinel_next.pre = sentinel_pre;
     }
@@ -31,14 +35,12 @@ public class LinkedListDeque {
     
     public LinkedListDeque(T x) {
         sentinel_next.pre = sentinel_pre;
-        sentinel_pre.next = new Node<T>(sentinel_pre, sentinel_pre.next, x);
+        sentinel_pre.next = new Node(sentinel_pre, sentinel_pre.next, x);
         
 
     }
     
-    public add(int x){
-
-    }
+  
 
 
 }

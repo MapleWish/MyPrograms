@@ -12,7 +12,7 @@
  *  But we can creat meta in the SSList which recode it e.g size
  * or creat private menthod to use the meta e.g. size()
  * 
- * SSList not only do the naked IntList job ,but also can do more by the SSList middle,
+ * SSList not only do the naked IntList job ,but also can do more by the SSList middle(first),
  * which is so-called "programing oritend to the target"
  */
 public class SSList {

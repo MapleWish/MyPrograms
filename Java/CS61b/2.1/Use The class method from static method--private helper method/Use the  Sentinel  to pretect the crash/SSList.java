@@ -31,7 +31,7 @@ public class SSList {
     }
 
     public SSList() {
-        Sentinel = new IntNode(98, null);
+        Sentinel = new IntNode(87, null);
     }
 
     public void addfirst(int x) {

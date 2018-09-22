@@ -7,6 +7,8 @@
  * Inter,Integer, Double, Character, Boolean, Long, Short, Byte ,String
  * To replace the "kindname",When stablish the instance
  *          SSList<String> x = new SSList<String> ("happy")
+ * 
+ * The Generic setting must be the top of the class;
  */
 public class SSList<Fuck> {
     public class IntNode {
