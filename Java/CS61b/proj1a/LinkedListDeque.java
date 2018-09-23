@@ -10,6 +10,12 @@ public class LinkedListDeque<T> {
         public Node pre;
         public Node next;
         public T item;
+
+        public Node(Node p,Node n,T x){
+            pre= p;
+            next = n;
+            item = x;
+        }
     }
     
     public Node sentinel_pre;
@@ -56,8 +62,35 @@ public class LinkedListDeque<T> {
         return size;
     }
 
-    
-  
+    public T get(int i) {
+        Node p = sentinel_pre;
+        while(i!=0){
+            p=p.next;
+            i-=1;
+        }
+        return p.next.item;
+    }
 
+    public boolean isEmpty(){
+        if(size==0){
+            return true;
+        }
+        else return false;
+    }
 
+    public void printDeque(){
+        for(int i=0;i<size;i++){
+            System.out.print(get(i)+"");
+        }
+    }
+
+    public T removeFirst(){
+        sentinel_pre.next.pre=sentinel_pre;
+        sentinel_pre = sentinel_pre.next;
+        size -=1;
+        if(size==0){
+            return null;
+        }
+        else return sentinel_pre.next.item;
+    }
 }
